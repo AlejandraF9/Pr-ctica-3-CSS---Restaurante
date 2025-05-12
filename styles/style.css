@@ -1,0 +1,349 @@
+body {
+    background-color: antiquewhite;
+}
+
+.topbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5ab4a;
+    padding: 10px 2px;
+    border: 1.9px solid #ff9100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.brand-logo img {
+    width: 65px;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 20px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 15px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.topnav a:last-child {
+    border: 2px solid black;
+    padding: 7px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.topnav a:last-child:hover {
+    transform: scale(1.1);
+    border-color: #de4d33;
+}
+
+.topnav a:hover {
+    color: #ff6347;
+}
+
+h1 {
+    color:rgb(33, 117, 200);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.separador {
+  width: 90%;
+  height: 5px;
+  background-color: cornflowerblue;
+  margin: 1vh auto;
+}
+
+.card {
+    background-color: cornflowerblue;
+    width: 20%;
+    height: 430px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    max-width: 300px;
+    min-width: 385px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.texto {
+    font-family: "Cabin", sans-serif;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.texto button {
+    width: 15%;
+    border: .1px solid black;
+    justify-content: center;
+    font-size: 15px;
+    color: goldenrod;
+    background-color: blueviolet;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 6px;
+    position: relative;
+    left: 310px;
+    top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(155, 78, 228);
+}
+
+h2 {
+    color:burlywood;
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: black;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 15px 5px;
+    border-radius: 10px;
+    gap: 20px;
+    border: 0.1px solid #ccc;
+}
+
+.contenido {
+    color:antiquewhite;
+    font-family: "Playfair Display", serif;
+    font-size: 15px;
+}
+
+.titulo-contenido {
+    font-size: 25px;
+}
+
+.box > img {
+    border-radius: 10px;
+}
+
+.separador-dos {
+  width: 90%;
+  height: 5px;
+  background-color: cornflowerblue;
+  margin: 0 auto 10vh auto;
+}
+
+.galeria {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    margin-top: 400px;
+    background-color: black;
+    margin-top: 30vh;
+    border-radius: 10px;
+}
+
+.imagen-principal {
+    width: 50%;
+    height: auto;
+    position: relative;
+}
+
+.imagen-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.contact {
+    position: absolute;
+    font-size: 5vw;
+    font-family: "Cormorant Garamond", serif;
+    color:rgb(218, 202, 179);
+    text-decoration: none;
+    left: 4vw;
+    bottom: 2vw;
+  }
+
+.contenidos {
+    width: 50%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    align-items: stretch;
+}
+
+.uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cormorant Garamond", serif;
+    color:rgb(218, 202, 179);
+    margin-top: 7px;
+}
+
+h4 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    color:rgb(218, 202, 179);
+    padding-bottom: 70px;
+}
+
+.lista-uno {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+  }
+
+.item {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    gap: 120px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.dos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.dos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+.tres {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.tres img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cuatro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Cormorant Garamond", serif;
+    color:rgb(218, 202, 179);
+    padding: 20px;
+}
+
+.cuatro h4 {
+    margin-top: 35px;
+  }
+
+.uno,
+.cuatro {
+  border: 1px solid rgb(218, 202, 179);
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.item2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .direction {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .lista-dos {
+    width: 100%;
+  }
+
+  .iconos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .iconos i {
+    font-size: 24px;
+    color: rgb(218, 202, 179);
+    transition: color 0.3s ease;
+  }
+  
+  .iconos i:hover {
+    color: #fff;
+  }
